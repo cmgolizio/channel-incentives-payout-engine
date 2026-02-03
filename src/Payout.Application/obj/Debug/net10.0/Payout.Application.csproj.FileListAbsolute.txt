@@ -1,0 +1,16 @@
+/Users/christophergolizio/Desktop/PersonalProjects/channel-incentives-payout-engine/src/Payout.Application/bin/Debug/net10.0/Payout.Application.deps.json
+/Users/christophergolizio/Desktop/PersonalProjects/channel-incentives-payout-engine/src/Payout.Application/bin/Debug/net10.0/Payout.Application.dll
+/Users/christophergolizio/Desktop/PersonalProjects/channel-incentives-payout-engine/src/Payout.Application/bin/Debug/net10.0/Payout.Application.pdb
+/Users/christophergolizio/Desktop/PersonalProjects/channel-incentives-payout-engine/src/Payout.Application/bin/Debug/net10.0/Payout.Domain.dll
+/Users/christophergolizio/Desktop/PersonalProjects/channel-incentives-payout-engine/src/Payout.Application/bin/Debug/net10.0/Payout.Domain.pdb
+/Users/christophergolizio/Desktop/PersonalProjects/channel-incentives-payout-engine/src/Payout.Application/obj/Debug/net10.0/Payout.Application.csproj.AssemblyReference.cache
+/Users/christophergolizio/Desktop/PersonalProjects/channel-incentives-payout-engine/src/Payout.Application/obj/Debug/net10.0/Payout.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/christophergolizio/Desktop/PersonalProjects/channel-incentives-payout-engine/src/Payout.Application/obj/Debug/net10.0/Payout.Application.AssemblyInfoInputs.cache
+/Users/christophergolizio/Desktop/PersonalProjects/channel-incentives-payout-engine/src/Payout.Application/obj/Debug/net10.0/Payout.Application.AssemblyInfo.cs
+/Users/christophergolizio/Desktop/PersonalProjects/channel-incentives-payout-engine/src/Payout.Application/obj/Debug/net10.0/Payout.Application.csproj.CoreCompileInputs.cache
+/Users/christophergolizio/Desktop/PersonalProjects/channel-incentives-payout-engine/src/Payout.Application/obj/Debug/net10.0/Payout.Application.sourcelink.json
+/Users/christophergolizio/Desktop/PersonalProjects/channel-incentives-payout-engine/src/Payout.Application/obj/Debug/net10.0/Payout.A.BE6A1042.Up2Date
+/Users/christophergolizio/Desktop/PersonalProjects/channel-incentives-payout-engine/src/Payout.Application/obj/Debug/net10.0/Payout.Application.dll
+/Users/christophergolizio/Desktop/PersonalProjects/channel-incentives-payout-engine/src/Payout.Application/obj/Debug/net10.0/refint/Payout.Application.dll
+/Users/christophergolizio/Desktop/PersonalProjects/channel-incentives-payout-engine/src/Payout.Application/obj/Debug/net10.0/Payout.Application.pdb
+/Users/christophergolizio/Desktop/PersonalProjects/channel-incentives-payout-engine/src/Payout.Application/obj/Debug/net10.0/ref/Payout.Application.dll

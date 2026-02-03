@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "Payout.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/Payout.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Payout.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Payout.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Payout.Domain/Payout.Domain.csproj",
+      "msbuildProject": "../Payout.Domain/Payout.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "Payout.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/christophergolizio/.nuget/packages/": {}
@@ -31,7 +50,11 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/christophergolizio/Desktop/PersonalProjects/channel-incentives-payout-engine/src/Payout.Domain/Payout.Domain.csproj": {
+              "projectPath": "/Users/christophergolizio/Desktop/PersonalProjects/channel-incentives-payout-engine/src/Payout.Domain/Payout.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

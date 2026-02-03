@@ -1,0 +1,12 @@
+/Users/christophergolizio/Desktop/PersonalProjects/channel-incentives-payout-engine/src/Payout.Domain/bin/Debug/net10.0/Payout.Domain.deps.json
+/Users/christophergolizio/Desktop/PersonalProjects/channel-incentives-payout-engine/src/Payout.Domain/bin/Debug/net10.0/Payout.Domain.dll
+/Users/christophergolizio/Desktop/PersonalProjects/channel-incentives-payout-engine/src/Payout.Domain/bin/Debug/net10.0/Payout.Domain.pdb
+/Users/christophergolizio/Desktop/PersonalProjects/channel-incentives-payout-engine/src/Payout.Domain/obj/Debug/net10.0/Payout.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/christophergolizio/Desktop/PersonalProjects/channel-incentives-payout-engine/src/Payout.Domain/obj/Debug/net10.0/Payout.Domain.AssemblyInfoInputs.cache
+/Users/christophergolizio/Desktop/PersonalProjects/channel-incentives-payout-engine/src/Payout.Domain/obj/Debug/net10.0/Payout.Domain.AssemblyInfo.cs
+/Users/christophergolizio/Desktop/PersonalProjects/channel-incentives-payout-engine/src/Payout.Domain/obj/Debug/net10.0/Payout.Domain.csproj.CoreCompileInputs.cache
+/Users/christophergolizio/Desktop/PersonalProjects/channel-incentives-payout-engine/src/Payout.Domain/obj/Debug/net10.0/Payout.Domain.sourcelink.json
+/Users/christophergolizio/Desktop/PersonalProjects/channel-incentives-payout-engine/src/Payout.Domain/obj/Debug/net10.0/Payout.Domain.dll
+/Users/christophergolizio/Desktop/PersonalProjects/channel-incentives-payout-engine/src/Payout.Domain/obj/Debug/net10.0/refint/Payout.Domain.dll
+/Users/christophergolizio/Desktop/PersonalProjects/channel-incentives-payout-engine/src/Payout.Domain/obj/Debug/net10.0/Payout.Domain.pdb
+/Users/christophergolizio/Desktop/PersonalProjects/channel-incentives-payout-engine/src/Payout.Domain/obj/Debug/net10.0/ref/Payout.Domain.dll

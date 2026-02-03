@@ -1,41 +1,41 @@
+using Microsoft.EntityFrameworkCore;
+using Payout.Infrastructure.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
+// Controllers (so we can grow cleanly)
+builder.Services.AddControllers();
+
+// OpenAPI (built-in .NET OpenAPI support)
 builder.Services.AddOpenApi();
+
+// EF Core + SQLite
+var connStr = builder.Configuration.GetConnectionString("PayoutDb");
+if (string.IsNullOrWhiteSpace(connStr))
+    throw new InvalidOperationException("Missing ConnectionStrings:PayoutDb");
+
+builder.Services.AddDbContext<PayoutDbContext>(options =>
+{
+    options.UseSqlite(connStr);
+});
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
+    // Generates /openapi/v1.json
     app.MapOpenApi();
+
+    // Nice interactive UI at /swagger (uses the built-in OpenAPI doc)
+    app.UseSwaggerUI(options =>
+    {
+        options.SwaggerEndpoint("/openapi/v1.json", "Payout API v1");
+        options.RoutePrefix = "swagger";
+    });
 }
 
 app.UseHttpsRedirection();
 
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
-
-app.MapGet("/weatherforecast", () =>
-{
-    var forecast =  Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast");
+app.MapControllers();
 
 app.Run();
-
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}
